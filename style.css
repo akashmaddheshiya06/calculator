@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,400&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+.button{
+  width:66px;
+  padding:20px;
+  margin:0px  3px;
+  border:2px solid rgb(107, 199, 185) ;
+  border-radius: 9px;
+  cursor:pointer;
+  
+}
+
+
+/* Add hover background color to all buttons within the .row div */
+.row .button:hover {
+    background-color: rgb(178, 176, 227);
+  }
+  
+
+
+.row{
+  margin:8px 0px;
+}
+.row input{
+  width:230px;
+  margin : 0;
+  padding:8px 30px;
+  border:2px solid black;
+  border-radius:6px;
+  
+}
